@@ -35,6 +35,9 @@ Ran both swagger.sh and serve.py to get Docker running locally serving Swaggerto
 
 <img width="1779" alt="Swagger Details" src="https://github.optum.com/storage/user/7541/files/46b685a2-ae0a-46f6-a32f-0fab5077029d">
 <img width="1609" alt="Swagger Response" src="https://github.optum.com/storage/user/7541/files/83d498e4-20db-4714-b235-5f4702d52263">
+<img width="879" alt="Screen Shot 2023-01-03 at 1 31 08 AM" src="https://user-images.githubusercontent.com/46094082/210315515-0a911f83-5675-4118-97f5-282b92a2d232.png">
+<img width="1035" alt="Screen Shot 2023-01-03 at 1 31 22 AM" src="https://user-images.githubusercontent.com/46094082/210315539-ae15933b-b479-49f1-b835-05297971de7d.png">
+
 
 Consume model endpoints: An HTTP API is a URL that is exposed over the network so that interaction with a trained model can happen via HTTP requests such as GET and POST.
 <img width="1760" alt="Endpoint Model JSON Output" src="https://github.optum.com/storage/user/7541/files/cfe9ab80-71f4-40c3-81d1-bda88e47414a">
