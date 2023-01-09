@@ -6,7 +6,10 @@ In this project, Aure ML pipeline is built using the provided bankmarketing data
 
 Pipeline Architecture
 
-![image](https://github.optum.com/storage/user/7541/files/58ea3328-c395-4313-94f3-c5a796e2cb1d)
+![image](https://user-images.githubusercontent.com/46094082/211244605-d1a15f6a-11c4-4b50-86d2-2b18822b6f83.png)
+
+
+https://learn.udacity.com/nanodegrees/nd00333/parts/cd0600/lessons/fe72a17d-091f-4c9c-b341-d2fea440a791/concepts/5632c8e6-e3ac-4873-a9b5-b1164387e6fb
 
 Key Steps of the pipeline:
 
@@ -26,8 +29,7 @@ https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
 
 For this classification task of predicting, ‘yes’ or ‘no’, the Voting Ensemble model from the AutoML pipeline emerged as the best forming model with an accuracy of 91.5%.
 
-
-<img width="1031" alt="Auto-ML Best Model" src="https://github.optum.com/storage/user/7541/files/7007382e-04a3-4951-a3f9-10498def2230">
+<img width="1031" alt="Auto-ML Best Model" src="https://user-images.githubusercontent.com/46094082/211244669-e532339c-7be8-4b3a-ad41-273e20db3eb0.png">
 
 
 
@@ -35,7 +37,8 @@ For this classification task of predicting, ‘yes’ or ‘no’, the Voting En
 In this project, Azure ML SDK services is used to train a standard Scikit-learn Logistic Regression model on the Bank Marketing ‘tabular’ dataset on a single-node CPU leveraging the capabilities of the Azure ML HyperDrive for optimizing the hyperparameters.
 Scikit-learn pipeline gave an accuracy of **0.91183 HyperDrive Model
 
-<img width="1029" alt="Scikit-learn Pipeline" src="https://github.optum.com/storage/user/7541/files/785b56ab-a83e-404d-8ca8-b75428b61943">
+<img width="1029" alt="Scikit-learn Pipeline" src="https://user-images.githubusercontent.com/46094082/211244695-4ffebfa9-c161-498a-bb96-0ae29d98715b.png">
+
 
 The key steps for HyperDrive Tuning involves search space,Sampling Method,Primary metric and early termination policy. In this project Random Sampling search space adopted with the intention to randomly sample hyperparameter values from a defined search space without incurring high computational cost.Even though search space supports both discrete and continuous values as hyperparameter values but the search space is set to discrete for Regularization parameter, C, and Max-iter because it achieved the best accuracies compared to the accuracies obtained from the model when the continuous search space was used.
 
